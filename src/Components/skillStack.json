@@ -1,0 +1,62 @@
+[
+  {
+    "title": "HTML",
+    "src": "/logos/html.png",
+    "alt": "HTML",
+    "link": "https://html.com/"
+  },
+  {
+    "title": "CSS",
+    "src": "/logos/css.png",
+    "alt": "CSS",
+    "link": "https://css-tricks.com/"
+  },
+  {
+    "title": "TailwindCSS",
+    "src": "/logos/tailwindcss.png",
+    "alt": "TailwindCSS",
+    "link": "https://tailwindcss.com/"
+  },
+  {
+    "title": "JavaScript",
+    "src": "/logos/javascript.png",
+    "alt": "JavaScript",
+    "link": "https://www.javascript.com/"
+  },
+  {
+    "title": "ReactJS",
+    "src": "/logos/reactjs.png",
+    "alt": "ReactJS",
+    "link": "https://react.dev/"
+  },
+  {
+    "title": "Github",
+    "src": "/logos/github.png",
+    "alt": "Github",
+    "link": "https://github.com/ashwnkumar"
+  },
+  {
+    "title": "Figma",
+    "src": "/logos/figma.png",
+    "alt": "Figma",
+    "link": "https://www.figma.com/"
+  },
+  {
+    "title": "VSCode",
+    "src": "/logos/vscode.png",
+    "alt": "VSCode",
+    "link": "https://code.visualstudio.com/"
+  },
+  {
+    "title": "Blender",
+    "src": "/logos/blender.png",
+    "alt": "Blender",
+    "link": "https://www.blender.org/"
+  },
+  {
+    "title": "Framer Motion",
+    "src": "/logos/framer-motion.png",
+    "alt": "Framer Motion",
+    "link": "https://www.framer.com/motion/"
+  }
+]
