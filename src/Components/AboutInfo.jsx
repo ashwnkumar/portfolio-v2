@@ -8,6 +8,7 @@ import {
   faMugSaucer,
   faPencil,
 } from "@fortawesome/free-solid-svg-icons";
+import JapaneseText from "./JapaneseText";
 
 const AboutInfo = () => {
   return (
@@ -69,6 +70,7 @@ const AboutInfo = () => {
           capture moments. I’m always up for a cup of{" "}
           <span className="text-text font-medium">coffee.</span>
         </p>
+        <JapaneseText />
       </div>
     </div>
   );

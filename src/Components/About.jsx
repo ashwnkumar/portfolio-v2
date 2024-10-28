@@ -15,7 +15,7 @@ function About() {
             <img
               src="/profile.jpg"
               alt="Profile"
-              className="rounded-xl hover:scale-110 transition-transform duration-500 shadow-lg max-w-full h-auto"
+              className="rounded-xl lg:hover:scale-110 transition-transform duration-500 shadow-lg max-w-full h-auto"
             />
           </div>
         </div>

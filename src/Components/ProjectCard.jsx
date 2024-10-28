@@ -15,7 +15,7 @@ const ProjectCard = ({ title, desc, link, github, completed, image }) => {
 
   return (
     <div>
-      <div className="max-w-sm bg-card-background border border-border rounded-lg shadow  hover:scale-105 transition-transform duration-500">
+      <div className="max-w-sm bg-card-background border border-border rounded-lg shadow  lg:hover:scale-105 transition-transform duration-500">
         {/* <a href="https://ashwinkumar-dev.web.app">
           <img
             className="rounded-t-lg"
@@ -24,7 +24,7 @@ const ProjectCard = ({ title, desc, link, github, completed, image }) => {
           />
         </a> */}
         <div className="p-5">
-          <a href="https://ashwinkumar-dev.web.app" target="_blank">
+          <a href={link} target="_blank">
             <h2 className="mb-5 text-2xl flex  gap-2 font-medium tracking-tight text-text ">
               {title}{" "}
               {link && (
@@ -50,7 +50,7 @@ const ProjectCard = ({ title, desc, link, github, completed, image }) => {
               <a
                 target="_blank"
                 href={link}
-                className="inline-flex items-center gap-2 px-3 py-2 text-sm font-medium text-center text-text border border-text rounded-lg  transition-all duration-500 hover:text-background hover:bg-text"
+                className="inline-flex items-center gap-2 px-3 py-2 text-sm font-medium text-center text-background lg:text-text bg-text lg:bg-card-background border border-text rounded-lg  transition-all duration-500 lg:hover:text-background lg:hover:bg-text"
               >
                 Project Link
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
@@ -60,7 +60,7 @@ const ProjectCard = ({ title, desc, link, github, completed, image }) => {
               <a
                 target="_blank"
                 href={github}
-                className="inline-flex items-center gap-2 px-3 py-2 text-sm font-medium text-center text-text border border-text rounded-lg  transition-all duration-500 hover:text-background hover:bg-text"
+                className="inline-flex items-center gap-2 px-3 py-2 text-sm font-medium text-center text-background lg:text-text bg-text lg:bg-card-background border border-text rounded-lg  transition-all duration-500 lg:hover:text-background lg:hover:bg-text"
               >
                 GitHub
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />

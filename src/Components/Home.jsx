@@ -30,7 +30,7 @@ function Home() {
           <Link to="https://github.com/ashwnkumar" target="_blank">
             <FontAwesomeIcon
               icon={faGithub}
-              className="hover:scale-110 hover:text-text transition-all duration-300 h-6 w-6 md:h-8 md:w-8 text-subtext"
+              className="lg:hover:scale-110 lg:hover:text-text text-text lg:text-subtext transition-all duration-300 h-8 w-8 "
             />
           </Link>
           <Link
@@ -39,7 +39,7 @@ function Home() {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              className="hover:scale-110 hover:text-text transition-all duration-300 h-6 w-6 md:h-8 md:w-8 text-subtext"
+              className="lg:hover:scale-110 lg:hover:text-text text-text lg:text-subtext transition-all duration-300 h-8 w-8 "
             />
           </Link>
           <DownloadResume />
