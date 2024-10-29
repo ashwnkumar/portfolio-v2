@@ -1,9 +1,10 @@
-// CustomCursor.jsx
+// Cursor.jsx
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const CustomCursor = () => {
+const Cursor = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -18,35 +19,23 @@ const CustomCursor = () => {
   }, []);
 
   return (
-    <>
-      {/* Default cursor replaced with a white dot */}
-      <div
-        className="fixed rounded-full bg-text pointer-events-none hidden xl:block z-50" // Hidden on small screens, visible on medium and up
-        style={{
-          width: "10px", // Size of the white dot
-          height: "10px", // Size of the white dot
-          left: cursorPosition.x + 5, // Center the dot
-          top: cursorPosition.y + 4, // Center the dot
-        }}
-      />
-
-      {/* Follow cursor animation */}
-      <motion.div
-        className="fixed rounded-full border border-subtext pointer-events-none hidden xl:block z-50" // Hidden on small screens, visible on medium and up
-        style={{
-          width: "40px", // Size of the follow cursor
-          height: "40px", // Size of the follow cursor
-          left: cursorPosition.x - 10, // Center the follow cursor
-          top: cursorPosition.y - 10, // Center the follow cursor
-        }}
-        animate={{
-          left: cursorPosition.x - 10,
-          top: cursorPosition.y - 10,
-        }}
-        transition={{ type: "spring", stiffness: 300, damping: 20 }}
-      />
-    </>
+    <motion.div
+      className={`fixed rounded-full border border-text z-50 pointer-events-none hidden xl:block ${
+        isVisible ? "opacity-100" : "opacity-0"
+      } transition-opacity duration-300`}
+      style={{
+        width: "20px",
+        height: "20px",
+        left: cursorPosition.x - 10, // Center the cursor
+        top: cursorPosition.y - 10, // Center the cursor
+      }}
+      animate={{
+        left: cursorPosition.x - 10,
+        top: cursorPosition.y - 10,
+      }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+    />
   );
 };
 
-export default CustomCursor;
+export default Cursor;

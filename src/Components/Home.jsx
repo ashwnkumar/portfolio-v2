@@ -20,7 +20,7 @@ function Home() {
           <span className="font-mono text-3xl md:text-4xl">Ashwin Kumar</span>,
         </p>
         <p className="text-text font-bold text-3xl md:text-5xl text-center mb-4">
-          Developer, Designer, Dreamer
+          Developer, Designer, Learner
         </p>
         <p className="text-subtext text-center text-base md:text-xl mb-8 font-medium">
           An engineer who loves to create (and occasionally design) web

@@ -10,14 +10,14 @@ const SkillStack = () => {
       <ul className="flex flex-wrap gap-6 justify-center lg:justify-start ">
         {skillStack &&
           skillStack.map((skill) => (
-            <li key={skill.title} className="relative group">
+            <li key={skill.title} className="relative group mb-5">
               <img
-                className="h-16 w-16 cursor-pointer transition-transform transform group-hover:scale-110 duration-500 shadow-md"
+                className="h-16 w-16 cursor-pointer transition-transform transform lg:group-hover:scale-110 duration-500 shadow-md"
                 src={skill.src}
                 alt={skill.alt}
                 onClick={() => window.open(skill.link)}
               />
-              <p className="absolute mt-2 w-max left-1/2 transform -translate-x-1/2 bg-background text-text text-xs sm:text-sm px-2 py-1 rounded opacity-0 transition-opacity duration-500 group-hover:opacity-100 shadow-lg">
+              <p className="absolute mt-2 w-max left-1/2 transform -translate-x-1/2 bg-background text-subtext text-xs sm:text-sm px-2 py-1 rounded xl:opacity-0 transition-opacity duration-500 lg:group-hover:opacity-100 shadow-lg">
                 {skill.title}
               </p>
             </li>

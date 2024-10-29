@@ -82,6 +82,16 @@ const Footer = () => {
               FontAwesome
             </a>
             .
+            <p>
+              Hosted using{" "}
+              <a
+                href="https://firebase.google.com/"
+                target="_blank"
+                className="text-text font-medium"
+              >
+                Firebase.
+              </a>
+            </p>
           </p>
           <p>&copy; 2024 All Rights Reserved.</p>
         </div>

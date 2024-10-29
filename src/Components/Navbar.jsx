@@ -26,7 +26,7 @@ export default function Example() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <HashLink smooth to="#home">
-            <p className="text-2xl font-mono hover:scale-110 duration-500 transition-transform">
+            <p className="text-xl lg:text-2xl font-mono hover:scale-110 duration-500 transition-transform">
               {"<"}ashwinkumar<span className="text-neutral-500">dev</span>
               {"/>"}
             </p>

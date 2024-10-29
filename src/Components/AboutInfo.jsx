@@ -12,7 +12,7 @@ import JapaneseText from "./JapaneseText";
 
 const AboutInfo = () => {
   return (
-    <div className="flex flex-col gap-7 w-full md:w-1/2 px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col gap-7 w-full md:w-1/2 px-4 sm:px-6 lg:px-8 cursor-default">
       <div>
         <p className="text-3xl sm:text-3xl font-semibold text-text">
           About Me:

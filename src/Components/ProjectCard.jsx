@@ -44,7 +44,7 @@ const ProjectCard = ({ title, desc, link, github, completed, image }) => {
             <FontAwesomeIcon icon={faCircle} size="2xs" />{" "}
             {completed ? "Completed" : "Ongoing"}
           </p>
-          <p className="mb-3 font-normal text-subtext ">{desc}</p>
+          <p className="mb-3 font-normal text-subtext cursor-default">{desc}</p>
           <div className="space-x-3">
             {link && (
               <a

@@ -66,6 +66,7 @@ function Contact() {
             <a
               className="flex items-center text-3xl lg:text-4xl justify-center gap-2 text-text p-4 rounded-full lg:hover:scale-110 lg:hover:text-background lg:hover:bg-text transition-all duration-300"
               href={link.link}
+              target="_blank"
               key={link.name}
               aria-label={link.name}
             >

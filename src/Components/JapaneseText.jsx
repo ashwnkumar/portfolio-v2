@@ -39,8 +39,8 @@ const JapaneseText = () => {
           animate="animate"
           variants={variants}
           transition={{ duration: 0.7 }} // Adjust duration for fade effect
-          className={`text-xl font-medium text-subtext ${
-            isEnglish ? "tracking-normal" : "tracking-wide"
+          className={`text-xl  text-subtext ${
+            isEnglish ? "tracking-normal" : "tracking-wider "
           } `}
         >
           {isEnglish ? englishText : japaneseText}
